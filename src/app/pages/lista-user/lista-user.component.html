@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <table class="table table-striped table-hover">
+    <thead >
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Cpf</th>
+        <th scope="col">Matricula</th>
+        <th scope="col">Lider</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of listaUsers">
+        <td>{{item.nome}}</td>
+        <td>{{item.cpf}}</td>
+        <td>{{item.matricula}}</td>
+        <td>{{item.fk_lider}}</td>
+
+      </tr>
+
+
+    </tbody>
+  </table>
+
+</div>
