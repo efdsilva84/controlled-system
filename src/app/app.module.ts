@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CadUserComponent } from './pages/cad-user/cad-user.component';
 import { ListaUserComponent } from './pages/lista-user/lista-user.component';
+import { CadUserCredencialComponent } from './pages/cad-user-credencial/cad-user-credencial.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListaUserComponent } from './pages/lista-user/lista-user.component';
     HomeComponent,
     AboutComponent,
     CadUserComponent,
-    ListaUserComponent
+    ListaUserComponent,
+    CadUserCredencialComponent
   ],
   imports: [
     BrowserModule,

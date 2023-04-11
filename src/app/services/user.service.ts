@@ -34,4 +34,12 @@ export class UserService {
     return this.api.get('cadastros/buscarlocal', false, httpOptions);
 
   }
+  buscarEmpresas(){
+    return this.api.get('cadastros/buscaempresas', false, httpOptions);
+
+  }
+  buscarAcesso(){
+    return this.api.get('cadastros/buscatipo_acesso', false, httpOptions);
+
+  }
 }

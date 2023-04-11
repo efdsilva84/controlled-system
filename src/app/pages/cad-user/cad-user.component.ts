@@ -33,7 +33,7 @@ export class CadUserComponent {
     matricula: new FormControl('', [Validators.required]),
     fk_lider: new FormControl('', [Validators.required]),
     senha: new FormControl('', [Validators.required]),
-    local: new FormControl('', [Validators.required]),
+    fk_local_trabalho: new FormControl('', [Validators.required]),
 
 
 
